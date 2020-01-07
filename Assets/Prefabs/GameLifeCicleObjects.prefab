@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &735864825838392923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735864825838392921}
+  - component: {fileID: 735864825838392920}
+  - component: {fileID: 735864825838392934}
+  - component: {fileID: 735864825838392935}
+  m_Layer: 0
+  m_Name: GameLifeCicleObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &735864825838392921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735864825838392923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 916.1623, y: 537.8213, z: -996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &735864825838392920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735864825838392923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67647e5ae0ac8384caf9dfd0dbb82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &735864825838392934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735864825838392923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5145f84c878b5ef4ea860ff859436767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGroundPicture: {fileID: 0}
+--- !u!114 &735864825838392935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735864825838392923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2869d1cc2cb80941876d51b71356744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityControl: {fileID: 735864825838392920}
+  colorSceneControl: {fileID: 735864825838392934}
+  bgRenderer: {fileID: 0}
+  presets:
+  - {fileID: 11400000, guid: 51d1f8227b59b85418c56eb929072038, type: 2}
+  - {fileID: 11400000, guid: 149a8f87e37484f438f78ec34e86be1a, type: 2}
+  - {fileID: 11400000, guid: fd1e5e826b4f9e4428d71a30ddfe4b6d, type: 2}
